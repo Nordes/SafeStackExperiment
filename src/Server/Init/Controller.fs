@@ -3,7 +3,7 @@ open Saturn
 open Giraffe.Core
 open Giraffe.ResponseWriters
 open FSharp.Control.Tasks
-open Shared
+open Application.Domain
 
 let __get next ctx = task {
         let counter = { Value = 45 }

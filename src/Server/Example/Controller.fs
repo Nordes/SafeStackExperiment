@@ -2,7 +2,7 @@ module Example.Controller
 open Saturn
 open Giraffe
 open FSharp.Control.Tasks
-open Shared
+open Application.Domain
 open Microsoft.AspNetCore.Http
 
 let __get next ctx = task {

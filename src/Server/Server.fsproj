@@ -5,7 +5,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="paket.references" />
-    <Compile Include="../Shared/Shared.fs" />
+    <Compile Include="../Shared/Domain.fs" />
     <Compile Include="Example/Controller.fs" />
     <Compile Include="Init/Controller.fs" />
     <Compile Include="Router.fs" />

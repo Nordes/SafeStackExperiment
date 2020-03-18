@@ -6,9 +6,22 @@
     <None Include="index.html" />
     <None Include="paket.references" />
     <None Include="style.scss" />
-    <Compile Include="../Shared/Shared.fs" />
-    <Compile Include="Version.fs" />
-    <Compile Include="Client.fs" />
+    <Compile Include="ReleaseNotes.fs" />
+    <Compile Include="../Shared/Domain.fs" />
+
+    <Compile Include="components/Utils.fs" />
+    <Compile Include="components/Counter.fs" />
+    <Compile Include="components/NavBar.fs" />
+    <Compile Include="components/SuperHeroBlock.fs" />
+
+    <Compile Include="pages/Home.fs" />
+    <Compile Include="pages/Examples.fs" />
+    <Compile Include="pages/Documentation.fs" />
+
+    <!-- <Compile Include="Footer/State.fs" /> -->
+    <Compile Include="Pages.fs" />
+
+    <Compile Include="App.fs" />
   </ItemGroup>
   <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>

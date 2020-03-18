@@ -5,7 +5,7 @@ open Giraffe.Core
 open Giraffe.ResponseWriters
 open FSharp.Control.Tasks
 open Microsoft.AspNetCore.Http
-open Shared
+open Application.Domain
 
 type Stuff = { Postcode: string }
 
